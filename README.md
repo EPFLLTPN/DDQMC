@@ -13,6 +13,10 @@ The present version calculates the magnetization for the 2-dimensional dissipati
 DDQMC is written in C++. We have tested it using GCC compiler and are interested in hearing of use with other compilers.
 ### GSL - GNU Scientific Library
 The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers. It is free software under the GNU General Public License. GSL can be found in the gsl subdirectory on your nearest GNU mirror http://ftpmirror.gnu.org/gsl/.
+### MPI
+Since the parallelization is optimized for cluster computing, we used MVAPICH. The MVAPICH2 software, based on MPI 3.1 standard, delivers the best performance, scalability and fault tolerance for high-end computing systems and servers using InfiniBand, Omni-Path, Ethernet/iWARP, and RoCE networking technologies. 
+### Boost
+Boost provides free peer-reviewed portable C++ source libraries.
 
 ## Some geography
 Files are organized in the DDQMC repository as follows:
