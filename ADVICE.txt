@@ -1,7 +1,0 @@
-1) Set the Bitset length as close to the site length as possible
-2) The number of slaves must be odd -> one has to use even number of processes
-3) Set the default path for writing and reading
-
-- how many determinants we use for the test functions in the mixed estimator
-- how many Hamiltonian elements we store per process
-- how many wlaker do they need for the initiator space
