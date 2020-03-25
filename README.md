@@ -52,3 +52,4 @@ Building target QMC
 
 A more detailed explanation on how to compile parallel C++ code for a computational cluster can be found at https://scitas-data.epfl.ch/public/training/using_mpi.pdf.
 
+# Usage
