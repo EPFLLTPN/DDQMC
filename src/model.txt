@@ -1,0 +1,45 @@
+Model
+-------------------
+1d_xyz_dissipative
+
+###################
+Lattice
+-------------------
+4
+
+###################
+Jx - nearest neighbour coupling constant
+-------------------
+0.9
+
+###################
+Jy - nearest neighbour coupling constant
+-------------------
+1.2
+
+###################
+Jz - nearest neighbour coupling constant
+-------------------
+1.0
+
+###################
+Gamma - Dissipation rate
+-------------------
+1.0
+
+###################
+h - External field
+-------------------
+0.0
+
+###################
+Theta - External field direction
+-------------------
+0.0
+
+###################
+Reference determinant 
+-------------------
+0000
+
+0000
