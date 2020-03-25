@@ -9,6 +9,10 @@ For more information, see:
 The present version calculates the magnetization for the 2-dimensional dissipative XYZ Heisenberg model in an external magnetic field. The code can easily be adjusted for different models and/or observables by redefining System_Model.h, System_Model.cpp
 
 ## Requirements
+### C++ compilers
+DDQMC is written in C++. We have tested it using GCC compiler and are interested in hearing of use with other compilers.
+### GSL - GNU Scientific Library
+The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers. It is free software under the GNU General Public License. GSL can be found in the gsl subdirectory on your nearest GNU mirror http://ftpmirror.gnu.org/gsl/.
 
 ## Some geography
 Files are organized in the DDQMC repository as follows:
