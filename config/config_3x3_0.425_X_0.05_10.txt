@@ -1,0 +1,50 @@
+Energy shift
+-------------------
+-4
+
+###################
+Shift constant
+-------------------
+0.1
+
+###################
+Time step
+-------------------
+0.001
+
+###################
+Target particle number
+-------------------
+25000
+
+###################
+Number of cycles
+-------------------
+40000
+
+###################
+Random seed
+-------------------
+12345
+
+###################
+Cycle period to write out
+-------------------
+1
+
+###################
+Frequency for energy estimator
+-------------------
+1
+
+###################
+Importance sampling coeff. (if 0, then there is no importance sampling)
+-------------------
+0.5
+
+###################
+Initiator Limit
+-------------------
+10
+
+CHECK THAT THE SYSTEM SIZE IS NOT BIGGER THAN THE BITSET LENGTH
