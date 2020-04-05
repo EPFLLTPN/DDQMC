@@ -78,4 +78,4 @@ Example of a parallel run file on a computational cluster using a SLURM workload
 `srun /path/to/QMC /path/to/config/ -`
 
 # License
-Except where otherwise stated, HANDE is under the 'Lesser GNU Public License v2.1'.
+Except where otherwise stated, HANDE is under the 'Lesser GNU Public License v3.0'.
