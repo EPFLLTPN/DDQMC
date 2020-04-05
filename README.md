@@ -76,3 +76,6 @@ Example of a parallel run file on a computational cluster using a SLURM workload
 `module load gcc mvapich2 gsl boost`
 
 `srun /path/to/QMC /path/to/config/ -`
+
+# License
+Except where otherwise stated, HANDE is under the 'Lesser GNU Public License v2.1'.
