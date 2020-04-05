@@ -54,19 +54,25 @@ A more detailed explanation on how to compile parallel C++ code for a computatio
 
 # Usage
 Example of a parallel run on a local machine:
+
 `mpirun -np N QMC /path/to/config/ -`
+
 where N is the number of parallel instances which needs to be EVEN. '/path/to/config' is the path to the folder where config.txt, model.txt and result/ is situated. The results of the simulations then will be printed in '/path/to/config/result/'. It is necessary that the folder exists.
 
-Example of a parallel run on a computational cluster using a SLURM workload manager:
-`
-#!/bin/bash
+Example of a parallel run file on a computational cluster using a SLURM workload manager:
 
-#SBATCH --ntasks 80
-#SBATCH --cpus-per-task 1
-#SBATCH --time 10:00:00
-#SBATCH --account=ltpn
+`#!/bin/bash`
 
-module purge
-module load gcc mvapich2 gsl boost
+`#SBATCH --ntasks 80`
 
-srun /path/to/QMC /path/to/config/ -`
+`#SBATCH --cpus-per-task 1`
+
+`#SBATCH --time 10:00:00`
+
+`#SBATCH --account=ltpn`
+
+`module purge`
+
+`module load gcc mvapich2 gsl boost`
+
+`srun /path/to/QMC /path/to/config/ -`
