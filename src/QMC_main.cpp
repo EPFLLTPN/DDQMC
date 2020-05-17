@@ -112,9 +112,9 @@ int main(int argc, char *argv[]) {
 			bitset<Bl> proba(string("011001"));
 			qmc_state->Generate_Determinant(proba, 1000, 1000, sys);
 
-			qmc_state->TestPerformance(qmc_state->determinant.find(proba)->second, 1);
+			/*qmc_state->TestPerformance(qmc_state->determinant.find(proba)->second, 1);
 			for(unsigned int walk=500; walk<=50000;walk+=500)
-				qmc_state->TestPerformance(qmc_state->determinant.find(proba)->second, walk);
+				qmc_state->TestPerformance(qmc_state->determinant.find(proba)->second, walk);*/
 
 		}
 
