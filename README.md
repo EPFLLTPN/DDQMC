@@ -48,7 +48,7 @@ Building file: ./Support.cpp
 
 Building target QMC
 
-`mpic++ -o QMC ./Classes/QMC_state.o ./Classes/Statistics.o ./Classes/System_Model.o ./QMC_main.o ./Support.o -lgsl -L/gsl/2.1/lib -Xlinker -lgsl -lgslcblas -lm`
+`mpic++ -o QMC ./Classes/QMC_state.o ./Classes/System_Model.o ./QMC_main.o ./Support.o -lgsl -L/gsl/2.1/lib -Xlinker -lgsl -lgslcblas -lm`
 
 A more detailed explanation on how to compile parallel C++ code for a computational cluster can be found at https://scitas-data.epfl.ch/public/training/using_mpi.pdf.
 
